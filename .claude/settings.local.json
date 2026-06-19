@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python3 -c \"import pdfplumber; pdf = pdfplumber.open\\(r'C:\\\\Users\\\\pooja\\\\OneDrive\\\\Documents\\\\Companies\\\\Innovaccer\\\\resume\\\\Pooja_Airee_SDET_Resume.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in pdf.pages]\")",
+      "Bash(py -3 -c \"import pdfplumber; pdf = pdfplumber.open\\(r'C:\\\\Users\\\\pooja\\\\OneDrive\\\\Documents\\\\Companies\\\\Innovaccer\\\\resume\\\\Pooja_Airee_SDET_Resume.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in pdf.pages]\")"
+    ]
+  }
+}
